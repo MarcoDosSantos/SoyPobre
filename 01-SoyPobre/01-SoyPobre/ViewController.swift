@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: "Ya sos rico.", message: "¿No es genial?", preferredStyle: .alert)
         let action1 = UIAlertAction(title: "Sí", style: .default) { (_) in
-            print("Quieres ser rico")
+            print("Quiero ser rico")
         }
         
         alert.addAction(action1)
