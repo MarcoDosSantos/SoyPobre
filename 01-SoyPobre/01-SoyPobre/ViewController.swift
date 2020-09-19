@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         self.button.setTitle("Botón apretado", for: .normal)
         
         let alert = UIAlertController(title: "Ya sos rico.", message: "¿No es genial?", preferredStyle: .alert)
-        let action1 = UIAlertAction(title: "Ok", style: .default) { (_) in
+        let action1 = UIAlertAction(title: "Sí", style: .default) { (_) in
             print("Quieres ser rico")
         }
         
